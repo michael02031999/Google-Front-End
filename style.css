@@ -1,0 +1,416 @@
+body {
+  height: 100vh;
+  background-color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* Navbar styling */
+#About,
+#Store,
+#Gmail,
+#Images {
+  font-style: arial;
+}
+
+#About,
+#Store {
+  font-size: 14px;
+}
+
+#Gmail,
+#Images {
+  font-size: 13px;
+}
+
+#signIn {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#apps {
+  width: 30px;
+}
+
+/* Google Search Bar*/
+
+#google {
+  max-height: 100%;
+  gap: 25px;
+  position: sticky;
+  top: 22.5%;
+  padding-bottom: 40px;
+}
+
+#googlePic {
+  width: 250px;
+}
+
+/* Google searchbar */
+
+#searchForm {
+  gap: 15px;
+  width: 450px;
+}
+
+#submitButtons {
+  justify-content: center;
+  gap: 25px;
+}
+
+#searchbarDiv {
+  position: relative;
+}
+
+#searchbar {
+  border-radius: 20px;
+  border: 1px solid rgb(228, 229, 232);
+  height: 40px;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 15px;
+  font-style: arial;
+}
+
+#searchbar:hover {
+  box-shadow: 0 0 3px rgb(218, 218, 218);
+}
+
+#searchbar:focus {
+  outline: 1px solid rgb(228, 228, 228);
+}
+
+.glass {
+  color: rgb(154, 160, 165);
+
+  position: absolute;
+  top: 12.5px;
+  left: 15px;
+}
+
+.mic {
+  position: absolute;
+  color: rgb(154, 160, 165);
+  right: 50px;
+  top: 8.5px;
+}
+
+.camera {
+  position: absolute;
+  color: rgb(154, 160, 165);
+  right: 15px;
+  top: 8.5px;
+}
+
+#submitButtons {
+  margin-top: 15px;
+}
+
+#searchButton,
+#luckyButton {
+  font-style: arial;
+  font-size: 12px;
+  color: rgb(32, 33, 36);
+  background-color: rgb(248, 249, 250);
+  border: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+#searchButton:hover,
+#luckyButton:hover {
+  border: 1px solid rgb(217, 220, 224);
+}
+
+/* Footer */
+
+#leaf {
+  width: 12.5px;
+  margin-right: 5px;
+}
+
+#footer {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-style: Arial;
+  font-size: 13px;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  gap: 5px;
+}
+
+.footerDivDiv {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerDiv {
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  #footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerDivDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    display: relative;
+  }
+  #leafDiv {
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .footerDivDiv {
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+/*******************************************/
+
+/* This is for google images */
+
+#googleImage {
+  max-height: 100%;
+  gap: 25px;
+  position: sticky;
+  top: 14.5%;
+  padding-bottom: 40px;
+}
+
+.googleImageContainer {
+  position: relative;
+}
+
+#googlePic2 {
+  width: 250px;
+  padding-bottom: 7.5px;
+}
+
+#imagesText {
+  position: absolute;
+  right: 0px;
+  top: 67.5px;
+  color: rgb(67, 132, 243);
+}
+
+/* Searchbar */
+
+#searchbar2 {
+  border-radius: 40px;
+  border: 1px solid rgb(228, 229, 232);
+  height: 47.5px;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 15px;
+  font-style: arial;
+}
+
+#searchbar2:focus {
+  outline: 1px solid rgb(228, 228, 228);
+}
+
+#searchbar2:hover {
+  box-shadow: 0 0 3px rgb(218, 218, 218);
+}
+
+/* Searchbar icons */
+
+.glass2 {
+  color: rgb(154, 160, 165);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.mic2 {
+  position: absolute;
+  color: rgb(154, 160, 165);
+  right: 80px;
+  top: 12.5px;
+}
+
+.camera2 {
+  position: absolute;
+  color: rgb(154, 160, 165);
+  right: 45px;
+  top: 12.5px;
+}
+
+.biggerGlass {
+  top: 12.5px;
+  position: absolute;
+  color: rgb(67, 132, 243);
+  right: 10px;
+}
+
+/* Advanced Search */
+
+#logo {
+  height: 25px;
+}
+
+/* Advanced Search Div */
+
+#advancedSearchLogo {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#AStext {
+  color: rgb(217, 48, 37);
+  font-style: arial, sans-serif;
+  font-size: 18.5px;
+  font-weight: 500;
+}
+
+#advancedSearchDiv {
+  padding-left: 50px;
+  padding-top: 35px;
+  border: 1px solid rgb(235, 235, 235);
+  position: relative;
+}
+
+#title {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: -6px;
+  margin-bottom: 20px;
+}
+
+.queryLabel {
+  font-style: arial;
+  font-size: 11px;
+  line-height: 16px;
+  color: black;
+}
+
+.spaceBetweenAsInputs {
+  padding: 0;
+  margin: -6px;
+}
+
+.ASinputs {
+  position: absolute;
+  left: 205px;
+  width: 45%;
+  height: 27.5px;
+  border: 1px solid rgb(217, 217, 217);
+  max-width: 475px;
+}
+
+.ASinputs:active {
+  outline: 1px solid rgb(77, 143, 254);
+}
+
+.ASinputs:focus {
+  outline: 1px solid rgb(77, 143, 254);
+}
+
+.hint {
+  font-size: 10px;
+  font-style: arial;
+  display: none;
+  position: absolute;
+  left: 700px;
+  margin-top: 6px;
+}
+
+#submitContainer {
+  position: relative;
+  left: 155px;
+  width: 47.5%;
+  height: 50px;
+  max-width: 475px;
+}
+
+#advancedSearchButton {
+  background-color: rgb(76, 143, 250);
+  font-size: 9px;
+  line-height: 11px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px;
+  border: none;
+  position: absolute;
+  right: 0px;
+}
+
+@media screen and (min-width: 1057px) {
+  .hint {
+    display: unset;
+  }
+
+  #submitContainer {
+  }
+}
+
+/* Footer */
+
+#footer3 {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-style: Arial;
+  font-size: 13px;
+  height: 40px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  gap: 0px;
+  justify-content: start;
+}
+
+.footerDiv3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-style: arial;
+  font-size: 14px;
+
+  color: rgb(112, 117, 121);
+
+  padding-left: 40px;
+}
+
+.footerp {
+  margin-top: auto;
+  margin-bottom: auto;
+}
